@@ -353,6 +353,19 @@ img{
         text-align: center;
     }
 
+    .header ul {
+        display: inline-block;
+        margin-right: 10px;
+        margin-top: 5px;
+    }
+    .header ul li{
+        display: inline-block;
+        list-style-type: none;
+        margin: 0 5px;
+        font-size: 24px;
+    }
+    
+
     .pics-and-name{
         grid-template-columns: 1fr;
         justify-content: center;
@@ -368,7 +381,8 @@ img{
         border-radius: 50%;
         width: 200px;
         height: 200px;
-        margin-left: 50%;
+        margin-left: 0;
+        justify-self: center;
     }
 
     .name{
@@ -380,7 +394,7 @@ img{
         text-align: end;
         margin-top: -80px;
         margin-bottom: 190px;
-        margin-right: 20px;
+        margin-right: 10px;
         font-size: 16px;
     }
     
