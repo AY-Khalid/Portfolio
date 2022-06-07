@@ -389,6 +389,7 @@ img{
         grid-template-columns: 1fr;
         text-align: center;
         width: 100%;
+        position: absolute;
         justify-content: center;
         align-items: center;
         margin: 30px;
