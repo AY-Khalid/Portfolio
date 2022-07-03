@@ -16,12 +16,9 @@
     box-sizing: border-box;
 }
 
-a{
-    text-decoration: none;
-}
 
 .logo h1 {
-    font-family: fantasy;
+    font-family: fantasy, 'Orbitron', cursive;
     color:  var(--primaryColor);
     margin-left: 50px;
     text-shadow: 3px 3px 5px black;
@@ -127,11 +124,12 @@ a{
     align-self: center;
 }
 
-.about p{
+.about p {
     margin: auto;
     width: 75%;
     font-size: 36px;
     text-align: center;
+    color: var(--textSecondary);
 }
 
 #name-section h2{
@@ -282,6 +280,10 @@ a{
     background-color: var(--lightBackground);
 }
 
+button a{
+    color: var(--textPrimary);
+    text-decoration: none;
+}
 
 /*Language Section*/
 
@@ -355,12 +357,13 @@ align-items: center;
 .contact-form{
     margin: 50px;
     height: 450px;
-    width: 400px;
+    width: 400px; 
     padding: 5px;
     text-align: center;
     background-color: white;
     border-radius: 20px;
     border: 1px solid var(--borderPrimary);
+    
 }
 
 
@@ -524,7 +527,7 @@ margin-top: 30px;
         position: absolute;
         z-index: 12;
         border: none;
-        top: 90%;
+        top: 85%;
         left: 25%;
         color: rgb(12, 80, 46);
         animation: none;
@@ -566,6 +569,7 @@ margin-top: 30px;
       padding: 66px;
       gap: 10px;
       visibility: visible;
+      opacity: 0.95;
     }
 
     .first-project-content h2, .second-project-content h2, .third-project-content h2, .fourth-project-content h2,
@@ -611,6 +615,7 @@ margin-top: 30px;
 
     .fa-arrow-right{
         display: none;
+        visibility: hidden;
     }
 
     .contact-form{
@@ -671,7 +676,7 @@ margin-top: 30px;
 
 @keyframes hireAnimation{
     0%{
-        transform: translateX(100%);
+        transform: translateX(540%);
     }
     100%{
         transform: translateX(0%);
